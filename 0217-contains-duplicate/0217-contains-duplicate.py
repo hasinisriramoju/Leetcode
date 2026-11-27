@@ -6,7 +6,7 @@ class Solution:
                # return True
         #    seen.add(nums[i])
         #return False
-        return  len(nums)!=len(set(nums))
+        return  len(nums)>len(set(nums))
             
 
      
